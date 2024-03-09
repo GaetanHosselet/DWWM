@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(./Assets/Font/Roboto-Light.ttf);
+    font-weight: 100;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto";
+    background-color: #efe784;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: 100;
+    font-size: small;
+}
+
+main {
+    padding: 0 10%;
+    width: 960px;
+    margin: auto;
+}
+
+section {
+    padding : 0 100px 0 100px;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    height: 250px;
+}
+
+.imgheader {
+    background-image: url(./Assets/Img/header.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.logoheader {
+    background-image: url(./Assets/Img/logoheader.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* backgroudsize contain pour adapter la taille du logo  */
+    height: 60px;
+    width: 350px;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+
+}
+
+h1 {
+    position: absolute;
+    top: 70%;
+    left: 32%;
+    letter-spacing: 18px;
+    color: #efe784;
+    font-weight: 100;
+    font-size: medium;
+}
+
+section.intro {
+    background-color: #3e3838;
+    color: #efe784;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+h2.titreintro {
+    display: inline-flex; 
+    /* inline-flex pour pouvoir le retirer de son statut bloc et réduire les bordures a la taille du mot */
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-size: medium;
+    border-top: #efe784 1px solid;
+    border-bottom: #efe784 1px solid;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    
+}
+
+p.intro {
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+section.avengers {
+    background-color: white;
+
+}
+
+h2.avengers {
+    color: #6cbcb3;
+    padding: 25px 0px 15px 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+p.avengers {
+    font-size: 11px;
+    padding-bottom: 15px;
+
+
+}
+
+.imgavengers {
+    background-image: url(./Assets/Img/avengers.jpg);
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 420px;
+    /* backgroundsizecover pour pouvoir modifier l'image sans la deformer */
+    background-size: cover;
+    /* backgroundposition x et y pour pouvoir crop l'image */
+    background-position-x:75% ;
+    background-position-y:35% ;
+
+}
+
+p.avengersbot {
+color: #6cbcb3;
+padding-top: 15px;
+padding-bottom: 20px;
+}
+
+section.star {
+    background-color: #6cbcb3;
+}
+
+h2.star {
+    color: #3e3838;
+    padding: 25px 0px 15px 0px;
+    letter-spacing: 2px;
+
+}
+
+p.star {
+    font-size: 11px;
+    padding-bottom: 15px;
+}
+
+.imgstar {
+    background-image: url(./Assets/Img/star.jpg);
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 420px;
+    background-size: cover;
+    background-position-x:-30% ;
+    background-position-y:-15%;
+}
+
+p.starbot {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+section.woman {
+    background-color:#282828 ;
+    color: white;
+    font-size: 11px;
+}
+
+h2.woman {
+    padding: 25px 0px 15px 0px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+p.woman {
+    font-size: 11px;
+    padding-bottom: 15px;
+}
+
+.imgwoman {
+    background-image: url(./Assets/Img/woman.jpg);
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 420px;
+    background-size: cover;
+    background-position-x:-30% ;
+    background-position-y:-15%;
+}
+
+p.womanbot {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+footer {
+    padding-left: 50px;
+    padding-top: 30px;
+    background-color: black;
+}
+
+.logofooter {
+    background-image: url(./Assets/Img/logofooter.png);
+    background-repeat: no-repeat;
+    height: 33px;
+    width: 100%;
+}
+
+p.footer {
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+span {
+    color: #efe784;
+}
