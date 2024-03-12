@@ -1,0 +1,48 @@
+div{
+    border : 1px dotted blue; 
+}
+
+.grid-container{          
+    display : grid;           
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 300px 100px;
+    gap : 10px 10px;
+    align-items:stretch;
+    /* justify-items: stretch; */
+
+    justify-content: stretch;
+    align-content: stretch;
+
+    height: 900px;
+  
+}
+.item1{
+    background-color:tan;
+    /* grid-column-start:  span; */
+    grid-area: 1/1/2/4;
+}   
+
+/* Commence ici */
+.item2{
+    background-color: red;
+    /* align-self: start;
+    justify-self: center; */
+}
+.item3{
+    background-color:yellow;
+}
+.item4{
+    background-color:lime;
+}
+.item5{
+    background-color:purple;
+}
+.item6{
+    background-color:orange;
+}
+.item7{
+    background-color:cyan;
+}
+.item8{
+    background-color:plum;
+}
