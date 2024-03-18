@@ -1,0 +1,66 @@
+main {
+  display: flex;
+  margin: 1%;
+  height: 500px;
+  width: 960px;
+}
+.container-left {
+  display: flex;
+  width: 60%;
+  height: 100%;
+  flex-direction: column;
+}
+.container-left .container-green {
+  background-color: greenyellow;
+  height: 50%;
+  margin: 2%;
+}
+.container-left .container-green .flex-item-green {
+  padding: 3%;
+}
+.container-left .container-multi {
+  display: flex;
+  flex-direction: row;
+  height: 35%;
+  width: 100%;
+  margin: 0 2% 2% 2% ;
+}
+.container-left .container-multi .container-double {
+  width: 50%;
+}
+.container-left .container-multi .container-double .flex-item-pink {
+  height: 50%;
+  width: 100%;
+  background-color: pink;
+  margin-bottom: 2%;
+}
+.container-left .container-multi .container-double .flex-item-aqua {
+  height: 50%;
+  background-color: aqua;
+}
+.container-left .container-multi .container-grey {
+  width: 45%;
+  margin: 0 1%;
+}
+.container-left .container-multi .container-grey .flex-item-grey {
+  background-color: gray;
+  height: 100%;
+  padding: 1%;
+}
+.container-left .container-red {
+  margin: 0 2%;
+  height: 30%;
+}
+.container-left .container-red .flex-item-red {
+  background-color: red;
+  height: 30%;
+}
+.container-right {
+  height: 100%;
+  margin: 1% 0;
+  width: 30%;
+}
+.container-right .flex-item-blue {
+  background-color: blue;
+  height: 81%;
+}
