@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+main {
+  width: 1440px;
+  height: 2643px;
+  margin: auto;
+  font-family: "Roboto condensed", sans-serif;
+  background-color: gray;
+}
+nav {
+  height: 60px;
+  background-color: #ecefd8;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 20px 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  height: 400px;
+  position: relative;
+}
+.header :nth-child(1) {
+  background-image: url(Assets/Image/Mask\ group.png);
+  background-repeat: no-repeat;
+  height: 100%;
+  position: relative;
+}
+.header :nth-child(2) {
+  background-image: url(Assets/Image/logo-Header.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 135px;
+  left: 490px;
+}
+.header :nth-child(3) {
+  position: absolute;
+  color: white;
+  top: 304px;
+  left: 490px;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+.intro {
+  height: 440px;
+  background-color: #ecefd8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro .h2 {
+  font-size: 20px;
+  margin: 3% 0;
+}
+.intro .p-intro {
+  letter-spacing: 1px;
+  line-height: 35.28px;
+  margin-bottom: 5%;
+}
+.intro .bouton-savoir {
+  width: 211px;
+  height: 65px;
+  background-color: #849561;
+  text-align: center;
+}
+.intro .bouton-savoir :nth-child(1) {
+  margin: 2%;
+  text-decoration: none;
+  color: #eed690;
+}
+.moment {
+  height: 560px;
+  background-color: #393939;
+  display: flex;
+  justify-content: space-between;
+}
+.moment .flexitem {
+  height: 404px;
+  width: 253px;
+  background-color: #849561;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.moment .flexitem p {
+  max-width: 80%;
+  margin: auto;
+}
+.moment .h2-moment {
+  color: #849561;
+  width: 1440px;
+  height: 26px;
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+.moment .img-ishi {
+  background-image: url(Assets/Image/Ishibashi.jpg);
+  background-repeat: no-repeat;
+  height: 145px;
+  width: 253px;
+  margin-bottom: 5%;
+}
+.moment .img-age {
+  background-image: url(Assets/Image/The\ Age\ of\ Anxiety.jpg);
+  background-repeat: no-repeat;
+  height: 145px;
+  width: 253px;
+  margin-bottom: 5%;
+}
+.moment h2 {
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+.moment p {
+  font-size: 14px;
+}
+.moment .bouton-découvrir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  align-self: center;
+  left: 50%;
+  bottom: -1.5em;
+  transform: translate(-50%);
+  width: 145px;
+  height: 42px;
+  background-color: #393939;
+  border: 1px solid #9ab464;
+}
+.moment .bouton-découvrir :nth-child(1) {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
