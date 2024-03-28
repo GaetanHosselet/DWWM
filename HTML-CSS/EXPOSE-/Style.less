@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: black;
-}
 main {
   width: 1440px;
   height: 2643px;
@@ -31,29 +28,33 @@ nav {
 .header {
   height: 400px;
   position: relative;
-  & :nth-child(1) {
+  display: flex;
+  
+  
+  .img-fond {
     background-image: url(./Assets/Image/Mask\ group.png);
     background-repeat: no-repeat;
-    height: 100%;
-    position: relative;
+    background-size: cover;
+    width: 100%;
   }
-  & :nth-child(2) {
+  .img-logo {
     background-image: url(./Assets/Image/logo-Header.png);
     background-repeat: no-repeat;
     position: absolute;
+    background-position: center;
     height: 100%;
     width: 100%;
-    top: 135px;
-    left: 490px;
   }
-  & :nth-child(3) {
+  .h2 {
     position: absolute;
     color: white;
-    top: 304px;
-    left: 490px;
     font-size: 24px;
     letter-spacing: 2px;
+    width: 100%;
+    top: 65%;
+    text-align: center;
   }
+  
 }
 .intro {
   height: 440px;
@@ -66,9 +67,11 @@ nav {
     margin: 3% 0;
   }
   .p-intro {
+    max-width: 50%;
     letter-spacing: 1px;
     line-height: 35.28px;
     margin-bottom: 5%;
+    text-align: center;
   }
   .bouton-savoir {
     width: 211px;
@@ -83,7 +86,11 @@ nav {
   }
 }
 .moment {
-  .flexitem {
+  height: 560px;
+  background-color: #393939;
+  display: flex;
+  justify-content: space-between;
+  .flexitem1 {
     height: 404px;
     width: 253px;
     background-color: #849561;
@@ -98,10 +105,6 @@ nav {
       margin: auto;
     }
   }
-  height: 560px;
-  background-color: #393939;
-  display: flex;
-  justify-content: space-between;
   .h2-moment {
     color: #849561;
     width: 1440px;
@@ -111,48 +114,252 @@ nav {
     justify-content: center;
     position: absolute;
   }
-      .img-ishi {
-        background-image: url(./Assets/Image/Ishibashi.jpg);
-        background-repeat: no-repeat;
-        height: 145px;
-        width: 253px;
-        margin-bottom: 5%;
-      }
-      .img-age {
-        background-image: url(./Assets/Image/The\ Age\ of\ Anxiety.jpg);
-        background-repeat: no-repeat;
-        height: 145px;
-        width: 253px;
-        margin-bottom: 5%;
-      }
-      h2 {
-        // color: white;
-        font-size: 20px;
-        margin-bottom: 5%;
-      }
-      p {
-        // color: white;
-        font-size: 14px;
-      }
-      .bouton-découvrir {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        align-self: center;
-        left: 50%;
-        bottom: -1.5em;
-        transform: translate(-50%);
-        width: 145px;
-        height: 42px;
-        background-color: #393939;
-        border: 1px solid #9ab464;
-        & :nth-child(1) {
-          text-decoration: none;
-          color: white;
-          font-size: 16px;
-        }
-      
+  .img-ishi {
+    background-image: url(./Assets/Image/Ishibashi.jpg);
+    background-repeat: no-repeat;
+    height: 145px;
+    width: 253px;
+    margin-bottom: 5%;
+  }
+  .img-age {
+    background-image: url(./Assets/Image/The\ Age\ of\ Anxiety.jpg);
+    background-repeat: no-repeat;
+    height: 145px;
+    width: 253px;
+    margin-bottom: 5%;
+  }
+  .img-apollinaire {
+    background-image: url(./Assets/Image/Apollinaire.jpg);
+    background-repeat: no-repeat;
+    height: 145px;
+    width: 253px;
+    margin-bottom: 5%;
+  }
+  .img-femmes {
+    background-image: url(./Assets/Image/Femmes\ Photographes.jpg);
+    background-repeat: no-repeat;
+    height: 145px;
+    width: 253px;
+    margin-bottom: 5%;
+  }
+  h2 {
+    font-size: 20px;
+    margin-bottom: 5%;
+  }
+  p {
+    font-size: 14px;
+  }
+  .bouton-découvrir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: -1.5em;
+    transform: translate(-50%);
+    width: 145px;
+    height: 42px;
+    background-color: #393939;
+    border: 1px solid #9ab464;
+    & :nth-child(1) {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
     }
   }
+}
+.instal {
+  height: 375px;
+  position: relative;
+  .img-fond {
+    background-image: url(./Assets/Image/modern-industrial\ 1.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .cloche {
+    height: 81px;
+    width: 81px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 70%;
+    border: white 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .img-cloche {
+      background-image: url(./Assets/Image/font-awesome\ -\ cloche.png);
+      background-repeat: no-repeat;
+      height: 45px;
+      width: 62px;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+  .h2 {
+    position: absolute;
+    top: 35%;
+    color: white;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .p-instal {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    color: white;
+    left: 25%;
+    max-width: 53%;
+    font-size: 16px;
+    line-height: 28.78px;
+  }
+}
+.footer {
+  height: 808px;
+  background-color: #393939;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  .h2 {
+    color: #849561;
+    font-size: 22px;
+  }
+  .bradlaura {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3%;
+  }
+  .brad {
+    width: 462px;
+    height: 404px;
+    background-color: #849561;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    .img-brad {
+      width: 205px;
+      height: 203px;
+      background-image: url(./Assets/Image/men.jpg);
+      border-radius: 50%;
+      position: absolute;
+      top: -30%;
+      left: 28%;
+    }
+    .img-laura {
+      width: 205px;
+      height: 203px;
+      background-image: url(./Assets/Image/Mask\ group\ \(1\).jpg);
+      border-radius: 50%;
+      position: absolute;
+      top: -30%;
+      left: 28%;
+    }
+    hr {
+      width: 90%;
+      align-self: center;
+      position: absolute;
+      top: 25%;
+    }
+    .txt {
+      display: flex;
+      justify-content: center;
+    }
+    .h3 {
+      display: flex;
+      position: absolute;
+      top: 28%;
+      color: white;
+      width: 100%;
+      // justify-content: flex-start;
+    }
+    .h3-laura {
+      display: flex;
+      position: absolute;
+      top: 28%;
+      color: white;
+      width: 100%;
+      justify-content: flex-end;
+    }
+    .p-brad {
+      top: 35%;
+      position: absolute;
+      max-width: 400px;
+      color: white;
+      line-height: 16.76px;
+      letter-spacing: 2px;
+      font-size: 14px;
+    }
+    .bouton {
+      display: flex;
+      justify-content: space-around;
+      position: absolute;
+      bottom: 5%;
+      left: 2%;
+      width: 200px;
+      .bouton1 {
+        display: flex;
+        width: 49px;
+        height: 48px;
+        background-color: #393939;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .img-google {
+      background-image: url(./Assets/Image/Google+.png);
+      background-repeat: no-repeat;
+      height: 15px;
+      width: 22px;
+    }
+    .img-twitter {
+      background-image: url(./Assets/Image/Twitter.png);
+      background-repeat: no-repeat;
+      height: 16px;
+      width: 22px;
+    }
+    .img-facebook {
+      background-image: url(./Assets/Image/Facebook.png);
+      background-repeat: no-repeat;
+      height: 18px;
+      width: 10px;
+    }
+  }
+}
 
+///////// MEDIA QUERY ////////
+@media screen and (max-width: 768px) {
+  main {
+    width: 768px;
+    height: 3699px;
+  }
+  nav {
+    height: 102px;
+  }
+  .header {
+    height: 560px;
+  }
+  .moment {
+    justify-content: center;
+    height: 1259px;
+    flex-wrap: wrap;
+    gap: 2%;
+  }
+  .instal {
+    height: 612px;
+    .img-fond {
+      background-image: none;
+      background-color: black;
+    }
+
+  }
+  .footer {
+    height: 798px;
+    .brad {
+      width: 336px;
+    }
+  }
+}

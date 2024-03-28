@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: black;
-}
 main {
   width: 1440px;
   height: 2643px;
@@ -29,29 +26,30 @@ nav ul li a {
 .header {
   height: 400px;
   position: relative;
+  display: flex;
 }
-.header :nth-child(1) {
+.header .img-fond {
   background-image: url(Assets/Image/Mask\ group.png);
   background-repeat: no-repeat;
-  height: 100%;
-  position: relative;
+  background-size: cover;
+  width: 100%;
 }
-.header :nth-child(2) {
+.header .img-logo {
   background-image: url(Assets/Image/logo-Header.png);
   background-repeat: no-repeat;
   position: absolute;
+  background-position: center;
   height: 100%;
   width: 100%;
-  top: 135px;
-  left: 490px;
 }
-.header :nth-child(3) {
+.header .h2 {
   position: absolute;
   color: white;
-  top: 304px;
-  left: 490px;
   font-size: 24px;
   letter-spacing: 2px;
+  width: 100%;
+  top: 65%;
+  text-align: center;
 }
 .intro {
   height: 440px;
@@ -65,9 +63,11 @@ nav ul li a {
   margin: 3% 0;
 }
 .intro .p-intro {
+  max-width: 50%;
   letter-spacing: 1px;
   line-height: 35.28px;
   margin-bottom: 5%;
+  text-align: center;
 }
 .intro .bouton-savoir {
   width: 211px;
@@ -86,7 +86,7 @@ nav ul li a {
   display: flex;
   justify-content: space-between;
 }
-.moment .flexitem {
+.moment .flexitem1 {
   height: 404px;
   width: 253px;
   background-color: #849561;
@@ -97,7 +97,7 @@ nav ul li a {
   color: white;
   position: relative;
 }
-.moment .flexitem p {
+.moment .flexitem1 p {
   max-width: 80%;
   margin: auto;
 }
@@ -124,6 +124,20 @@ nav ul li a {
   width: 253px;
   margin-bottom: 5%;
 }
+.moment .img-apollinaire {
+  background-image: url(Assets/Image/Apollinaire.jpg);
+  background-repeat: no-repeat;
+  height: 145px;
+  width: 253px;
+  margin-bottom: 5%;
+}
+.moment .img-femmes {
+  background-image: url(Assets/Image/Femmes\ Photographes.jpg);
+  background-repeat: no-repeat;
+  height: 145px;
+  width: 253px;
+  margin-bottom: 5%;
+}
 .moment h2 {
   font-size: 20px;
   margin-bottom: 5%;
@@ -136,7 +150,6 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   position: absolute;
-  align-self: center;
   left: 50%;
   bottom: -1.5em;
   transform: translate(-50%);
@@ -149,4 +162,195 @@ nav ul li a {
   text-decoration: none;
   color: white;
   font-size: 16px;
+}
+.instal {
+  height: 375px;
+  position: relative;
+}
+.instal .img-fond {
+  background-image: url(Assets/Image/modern-industrial\ 1.png);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.instal .cloche {
+  height: 81px;
+  width: 81px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 70%;
+  border: white 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.instal .cloche .img-cloche {
+  background-image: url(Assets/Image/font-awesome\ -\ cloche.png);
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 62px;
+  background-size: contain;
+  background-position: center;
+}
+.instal .h2 {
+  position: absolute;
+  top: 35%;
+  color: white;
+  left: 50%;
+  transform: translate(-50%);
+}
+.instal .p-instal {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  color: white;
+  left: 25%;
+  max-width: 53%;
+  font-size: 16px;
+  line-height: 28.78px;
+}
+.footer {
+  height: 808px;
+  background-color: #393939;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .h2 {
+  color: #849561;
+  font-size: 22px;
+}
+.footer .bradlaura {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3%;
+}
+.footer .brad {
+  width: 462px;
+  height: 404px;
+  background-color: #849561;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+}
+.footer .brad .img-brad {
+  width: 205px;
+  height: 203px;
+  background-image: url(Assets/Image/men.jpg);
+  border-radius: 50%;
+  position: absolute;
+  top: -30%;
+  left: 28%;
+}
+.footer .brad .img-laura {
+  width: 205px;
+  height: 203px;
+  background-image: url(Assets/Image/Mask\ group\ \(1\).jpg);
+  border-radius: 50%;
+  position: absolute;
+  top: -30%;
+  left: 28%;
+}
+.footer .brad hr {
+  width: 90%;
+  align-self: center;
+  position: absolute;
+  top: 25%;
+}
+.footer .brad .txt {
+  display: flex;
+  justify-content: center;
+}
+.footer .brad .h3 {
+  display: flex;
+  position: absolute;
+  top: 28%;
+  color: white;
+  width: 100%;
+}
+.footer .brad .h3-laura {
+  display: flex;
+  position: absolute;
+  top: 28%;
+  color: white;
+  width: 100%;
+  justify-content: flex-end;
+}
+.footer .brad .p-brad {
+  top: 35%;
+  position: absolute;
+  max-width: 400px;
+  color: white;
+  line-height: 16.76px;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.footer .brad .bouton {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 5%;
+  left: 2%;
+  width: 200px;
+}
+.footer .brad .bouton .bouton1 {
+  display: flex;
+  width: 49px;
+  height: 48px;
+  background-color: #393939;
+  justify-content: center;
+  align-items: center;
+}
+.footer .brad .img-google {
+  background-image: url(Assets/Image/Google+.png);
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 22px;
+}
+.footer .brad .img-twitter {
+  background-image: url(Assets/Image/Twitter.png);
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 22px;
+}
+.footer .brad .img-facebook {
+  background-image: url(Assets/Image/Facebook.png);
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 10px;
+}
+@media screen and (max-width: 768px) {
+  main {
+    width: 768px;
+    height: 3699px;
+  }
+  nav {
+    height: 102px;
+  }
+  .header {
+    height: 560px;
+  }
+  .moment {
+    justify-content: center;
+    height: 1259px;
+    flex-wrap: wrap;
+    gap: 2%;
+  }
+  .instal {
+    height: 612px;
+  }
+  .instal .img-fond {
+    background-image: none;
+    background-color: black;
+  }
+  .footer {
+    height: 798px;
+  }
+  .footer .brad {
+    width: 336px;
+  }
 }

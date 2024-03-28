@@ -1,0 +1,19 @@
+form {
+    width: 50%;
+    background-color: red !important;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    border: 2px solid black;
+    margin-left: 20%;
+
+}
+
+.carousel {
+    width: 50%;
+    margin-left: 22%;
+}
+
+h1 {
+    margin-left: 32%;
+}
