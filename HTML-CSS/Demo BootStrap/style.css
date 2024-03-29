@@ -9,3 +9,11 @@ video{
 .pp {
     color: white;
 }
+
+.PARALLAX {
+    height: 20vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://cdn.discordapp.com/attachments/1222827785878372513/1222857200972726323/parallax.jpg?ex=6617bd84&is=66054884&hm=544eb7229622d82c644a2d7dcf0af99d70562acf1a9487a8e90827821a56f9ae&);
+}
