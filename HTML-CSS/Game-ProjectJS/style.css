@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-.game {
+#accueil {
   height: 100vh;
   background-image: url(apocalypse-2459465_1920.jpg);
   background-repeat: no-repeat;
@@ -12,30 +12,14 @@
   flex-direction: column;
   gap: 3%;
 }
-.game .logo {
+#accueil .logo {
   background-image: url(dsqdxs.png);
   background-repeat: no-repeat;
   position: absolute;
   height: 100%;
   width: 100%;
 }
-.plateau {
-  background-color: gray;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  width: 80vw;
-  height: 80vh;
-  border: 2px solid black;
-  display: none;
-}
-.cell {
-  border: 1px solid black;
-}
-.cell1 {
-  background-color: black;
-}
-#btn,
+#StartButton,
 #btnt {
   height: 10vh;
   width: 50vh;
@@ -97,4 +81,31 @@
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+#selection {
+  background-image: url(apocalypse-2459465_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+#selection .images-joueur {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+h3,
+h2 {
+  color: orange;
+}
+.info-personnage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border: 1px solid orange;
 }

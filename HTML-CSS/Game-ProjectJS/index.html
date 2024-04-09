@@ -1,78 +1,63 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Game-ProjectJS</title>
-</head>
+  </head>
 
-<body>
-    <div class="game">
-        <div class="logo"></div>
+  <body>
+    <div id="accueil">
+      <div class="logo"></div>
+      <button id="StartButton">Start</button>
+      <button id="btnt">Tuto</button>
 
-        <div class="plateau">
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell1"></div>
-            <div class="cell1"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell1"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell1"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell1"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell1"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell1"></div>
-            <div class="cell1"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>
+            Bienvenu dans la jungle de L'AHEFSSEHI, institut de reconversion
+            pour jeunes delinquants multi-récidivistes ! <br />
+            Ces filous ont consommés une substance à base d'excréments de
+            chèvre, ce qui les a tous rendus complètement givré ! <br />La salle
+            de cours est devenu un vrai champ de bataille ! Choisis ton
+            délinquant, équipe le, et sors le vivant de ce bourbier ! Bonne
+            chance bouffon !
+          </p>
+          <ul>
+            <li>Commence par faire ça</li>
+            <li>Ensuite tu fais ça</li>
+            <li>Normalement tu enchaines par ça</li>
+            <li>Maintenant débrouille toi bouffon !</li>
+          </ul>
         </div>
+      </div>
+      <h1>AHEFSSEHI</h1>
+    </div>
+    <div id="selection" style="display: none">
+      <h2>Selection de Personnage</h2>
+      
+      <!-- <div id="galerie"></div> -->
+      
+      <div id="joueur1">
+        <h3>Joueur 1</h3>
+      <input type="text" id="pseudoJoueur1" placeholder="Pseudo Joueur 1" />
+      <div id="imagesJoueur1" class="images-joueur"></div>
+      </div>
 
-        <button id="btn">Start</button>
-        <button id="btnt">Tuto</button>
+      <div id="joueur2">
+        <h3>Joueur 2</h3>
+      <input type="text" id="pseudoJoueur2" placeholder="Pseudo Joueur 2" />
+      <div id="imagesJoueur2" class="images-joueur"></div>
+      </div>
 
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Bienvenu dans la jungle de L'AHEFSSEHI, institut de reconversion pour jeunes delinquants multi-récidivistes ! <br> Ces filous ont consommés une substance à base d'excréments de chèvre, ce qui les a tous rendus complètement givré ! <br>La salle de cours est devenu un vrai champ de bataille ! Choisis ton délinquant, équipe le, et sors le vivant de ce bourbier ! Bonne chance bouffon !</p>
-                <ul>
-                    <li>Commence par faire ça</li>
-                    <li>Ensuite tu fais ça</li>
-                    <li>Normalement tu enchaines par ça</li>
-                    <li>Maintenant débrouille toi bouffon !</li>
-                </ul>
-            </div>
-        </div>
-        <h1>AHEFSSEHI</h1>
+      <div id="infoPersonnage" class="info-personnage"></div>
+
+
+      <button id="jouerButton">Jouer</button>
     </div>
 
-
-
     <script src="js.js"></script>
-
-</body>
-
+  </body>
 </html>
