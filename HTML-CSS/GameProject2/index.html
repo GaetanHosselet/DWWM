@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="selectPerso">
+      <div class="selectPerso1 selectTout">
+        <div class="imgLoki taille lokiP1"></div>
+        <div class="imgThanos taille thanosP1"></div>
+        <div class="imgThor taille thorP1"></div>
+        <div class="imgRocket taille rocketP1"></div>
+      </div>
+
+      <div class="buttonMid">
+        <button class="buttonTuto btn">Tuto</button>
+        <button class="buttonPseudo btn">Pseudo</button>
+        <button class="buttonStart btn">Start</button>
+      </div>
+      <div class="modalePseudo">
+        <div class="modaleStyle">
+          <div>
+            <input
+              type="text"
+              class="pseudoJoueur1 pseudos"
+              placeholder="Pseudo Joueur 1"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              class="pseudoJoueur2 pseudos"
+              placeholder="Pseudo Joueur 2"
+            />
+          </div>
+          <span class="close">&times;</span>
+          <p></p>
+        </div>
+      </div>
+      <div class="modaleTuto">
+        <div class="modaleStyleTuto">
+          <h3>REGLES DU JEU</h3>
+          <p>
+            Voici les règles du jeu. <br />
+            Appuie sur attaquer. <br />
+            Attends. <br />
+            Appuie sur attaquer. <br />
+            Attends. <br />
+            Appuie sur attaquer. <br />
+            Attends. <br />
+            Survis ou meurs.
+          </p>
+          <span class="closeTuto close">&times;</span>
+        </div>
+      </div>
+
+      <div class="selectPerso2 selectTout">
+        <div class="imgLoki taille lokiP2"></div>
+        <div class="imgThanos taille thanosP2"></div>
+        <div class="imgThor taille thorP2"></div>
+        <div class="imgRocket taille rocketP2"></div>
+      </div>
+    </section>
+
+    <section class="combat">
+      <div class="fight combatP1">
+        <div class="imgP1"></div>
+
+        <div class="infoP1">
+          <p class="nameP1">NOM Personnage</p>
+          <div class="statsP1">
+            
+              <img class="imgP1HP" src="./img/coeurs.png" alt="pdv" />
+              <p class="P1HP">Valeur HP</p>
+            </div>
+            <div>
+              <img class="imgP1ATK" src="./img/epees-croisees.png" alt="atk" />
+              <p class="P1ATK">Valeur Atk</p>
+            </div>
+          </div>
+        <div class="btnP1">
+          <button class="btnAttaqueP1">Attaque</button>
+          <button class="btnCapacitéP1">Capacité</button>
+        </div>
+      </div>
+      <div class="fight combatP2">
+        <div class="imgP2"></div>
+        <div class="infoP2">
+          <p class="nameP2">NOM Personnage</p>
+          <div class="statsP2">
+            
+              <img class="imgP2HP" src="./img/coeurs.png" alt="pdv" />
+              <p class="P2HP">Valeur HP</p>
+            </div>
+            <div>
+              <img class="imgP2ATK" src="./img/epees-croisees.png" alt="atk" />
+              <p class="P2ATK">Valeur Atk</p>
+            </div>
+          </div>
+        <div class="btnP2">
+          <button class="btnAttaqueP2">Attaque</button>
+          <button class="btnCapacitéP2">Capacité</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="js.js"></script>
+  </body>
+</html>
