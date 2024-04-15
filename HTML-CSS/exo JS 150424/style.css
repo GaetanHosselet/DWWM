@@ -1,0 +1,28 @@
+main {
+    height: 100vh;
+    font-weight: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    height: 10%;
+    width: 20%;
+}
+
+.curseur {
+    display: none;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    z-index: 1000;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.rec {
+    height: 50%;
+    width: 50%;
+    background-color: black;
+}
