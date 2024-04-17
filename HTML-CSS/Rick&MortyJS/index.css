@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./wallpaperflare.com_wallpaper.jpg);
+    text-align: center;
+    color:rgb(142, 223, 238) ;
+}
+
+nav {
+    height: 5%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 100%;
+    list-style: none;
+}
+
+a {
+    border: 2px solid black;
+    background-color: rgb(142, 223, 238);
+}
