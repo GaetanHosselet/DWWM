@@ -50,6 +50,9 @@ data.nappages.nappage.forEach(element => {
 const form = document.createElement('form')
 body.appendChild(form)
 
+let selectedNappage = "";
+let selectedTopping = "";
+
 data.nappages.nappage.forEach(element => {
     const inputRadio = document.createElement('input')
     inputRadio.type = "radio"
@@ -62,9 +65,14 @@ data.nappages.nappage.forEach(element => {
     labelRadio.htmlFor = element.type
     labelRadio.textContent = element.type
     form.appendChild(labelRadio)
+
+    inputRadio.addEventListener('change', () => {
+        selectedNappage = inputRadio.value;
+    });
 })
 
 const br = document.createElement('br')
+br.className = 'br'
 form.appendChild(br)
 
 data.topping.forEach(element => {
@@ -80,12 +88,21 @@ data.topping.forEach(element => {
     labelRadio.htmlFor = element.type
     labelRadio.textContent = element.type
     form.appendChild(labelRadio)
+
+    inputRadio.addEventListener('change', () => {
+        selectedTopping = inputRadio.value;
+    });
 })
 
 const btn = document.createElement('button')
 btn.textContent = "Valider"
-btn.addEventListener("click", () => {
+btn.className = 'btn'
+btn.addEventListener("click", (event) => {
+    event.preventDefault();
     const h2 = document.createElement('h2')
+    h2.className = 'h2'
+    form.appendChild(h2)
+    h2.innerHTML = `Nappage : ${selectedNappage} <br>Topping : ${selectedTopping}`;
 })
 const br2 = document.createElement('br')
 form.appendChild(br2)
