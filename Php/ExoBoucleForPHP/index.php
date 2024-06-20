@@ -1,9 +1,9 @@
 <?php
 
-// $i = rand (1, 9);
-// for($j = 1; $j <= 10; $j++):
-//      echo $i, "fois", $j, "=", ($i*$j), "\n";
-// endfor;
+$i = rand (1, 9);
+for($j = 1; $j <= 10; $j++):
+     echo $i, "fois", $j, "=", ($i*$j), "\n";
+endfor;
 
 
 

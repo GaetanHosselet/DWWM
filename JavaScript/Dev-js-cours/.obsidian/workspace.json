@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "ccc87f8af280718c",
+    "type": "split",
+    "children": [
+      {
+        "id": "8862d223d4c17bb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c49abd582710fbe",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ac7b8677951195d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "6242ad877c7ec5ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c1ddf361b7f7147",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f767de67eb587ae9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96cf9f8c3c7702d1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8bb0d0543566522a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9335d85847eaae4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78273bb223058924",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "69425dc7c47978ca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e4bcf1b29442c109",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1322220b982fa3cc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "12e8a2ebaf989e50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1- Introduction à JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 612.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "5c49abd582710fbe",
+  "lastOpenFiles": [
+    "6- Concepts Avancés.md",
+    "Exercices - Manipulation du DOM.md",
+    "5- Fonctions avancées.md",
+    "7- AJAX (Asynchronous JavaScript and XML).md",
+    "8- Frameworks JavaScript.md",
+    "9- Bonnes Pratiques et Débogage.md",
+    "Aide mémoire - Général.md",
+    "Aide mémoire - Manipulation du DOM.md",
+    "Aide mémoire - Tableaux.md",
+    "4- Gestion des tableaux et Objets.md",
+    "Exercices - Fonctions.md",
+    "1- Introduction à JavaScript.md",
+    "2- Syntaxe de base.md",
+    "3- Manipulation du DOM.md",
+    "Base.md",
+    "Exercices - Algo de base.md",
+    "Exercices - Conditions & boucles.md",
+    "Welcome.md"
+  ]
+}

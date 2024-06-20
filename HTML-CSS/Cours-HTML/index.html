@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- titre de la page -->
+    <title>Cours HTML de zéro</title>
+    <!-- Icone de l'onglet -->
+    <link rel="shortcut icon" href="./Logo-head.png" />
+  </head>
+  <body>
+    <nav>
+      <!-- UL = Unordered List -->
+      <ul>
+        <li>Acceuil</li>
+        <li>Boutique</li>
+        <li>Formulaire</li>
+      </ul>
+    </nav>
+    <header>
+      <!-- Un seul h1 par page -->
+      <h1>Ceci est le titre principal</h1>
+      <p>
+        texte classique <em>texte en italique</em>
+        <strong>texte en gras</strong>
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ea, quam
+        natus in nulla culpa, suscipit quae sapiente ratione optio doloribus
+        molestias voluptas iste autem! Suscipit incidunt delectus adipisci
+        quasi!
+      </p>
+    </header>
+    <main>
+      <section>
+        <h2>ordered list</h2>
+        <ol>
+          <li>ceci est</li>
+          <li>une liste</li>
+          <li>dans l'ordre</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>Image en html</h3>
+        <img src="./Image test.jpg" height="200" alt="" />
+        <!-- l'alt de l'image est pour l'accessibilité  -->
+        <div>
+          <h4>tableaux</h4>
+          <table
+            border="4"
+            cellpadding="10"
+            cellspacing="4"
+            style="text-align: center"
+          >
+            <!-- thead est pour l'entete du tableaux  -->
+            <thead>
+              <tr>
+                <th>col 1</th>
+                <th>col 2</th>
+                <th>col 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+              </tr>
+              <tr>
+                <td>Cell 4</td>
+                <td>Cell 5</td>
+                <td>Cell 6</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h5><i>&#10032;</i>Les liens</h5>
+          <!-- _blank permet de créer un nouvel onglet quand tu click sur un lien -->
+          <a href="https://htmlcheatsheet.com" target="_blank"
+            >Html Cheat Sheet</a
+          >
+        </div>
+        <div>
+          <h6><span>&#128578;</span>Vidéos</h6>
+          <video src="./Video.mp4" height="200" autoplay muted loop></video>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
