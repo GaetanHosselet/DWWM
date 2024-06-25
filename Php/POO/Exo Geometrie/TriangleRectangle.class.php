@@ -31,16 +31,16 @@ class TriangleRectangle
 
     public function perimetreTriangle()
     {
-        // Calcul de l'hypoténuse - sqrt sert a calculer la racine carrée d'un nombre
+        
         $hypotenuse = sqrt(pow($this->base, 2) + pow($this->hauteur, 2));
 
-        // Calcul du périmètre
+        
         $perimetreTriangle = $this->base + $this->hauteur + $hypotenuse;
 
-        return "Le périmètre du triangle rectangle est de : $perimetreTriangle cm <br>";
+        return "Le périmètre du triangle rectangle est de : ". round($perimetreTriangle,2) ." cm <br>";
     }
 
-    public function airTriangle(){
+    public function aireTriangle(){
                 // Calcul de l'aire
                 $aire = 0.5 * $this->base * $this->hauteur;
                 return "L'aire du triangle rectangle est de : $aire cm² <br>";
@@ -49,7 +49,7 @@ class TriangleRectangle
     public function afficherTriangle(){
         echo "La base du triangle est de $this->base cm et sa hauteur est de $this->hauteur cm <br>";
         echo $this->perimetreTriangle();
-        echo $this->airTriangle();
+        echo $this->aireTriangle();
         echo "*******************************************<br>";
     }
 }

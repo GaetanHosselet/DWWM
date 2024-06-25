@@ -22,7 +22,7 @@ class Pave extends Rectangle{
     }
 
     public function afficherPave(){
-        echo "La longueur du Pave est de $this->longueur, sa largeur est de $this->largeur et sa hauteur est de $this->hauteur <br>";
+        echo "La longueur du Pave est de $this->longueur cm, sa largeur est de $this->largeur cm et sa hauteur est de $this->hauteur cm <br>";
         echo $this->perimetrePave();
         echo $this->volumePave();
         echo "*******************************************<br>";

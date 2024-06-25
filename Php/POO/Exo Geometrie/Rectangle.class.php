@@ -22,7 +22,7 @@ class Rectangle{
 
     public function aire(){
         $aire = ($this->longueur * $this->largeur);
-        echo "L'aire du rectangle est de : $aire cm  <br>";
+        echo "L'aire du rectangle est de : " . round($aire, 2) . " cm  <br>";
     }
 
     public function estCarre(){

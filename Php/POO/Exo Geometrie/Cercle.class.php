@@ -12,13 +12,13 @@ class Cercle{
 
     public function perimetreCercle(){
         $perimetre = M_PI * $this->diametre;
-        return "Le périmètre du cercle est de :  $perimetre cm <br>";
+        return "Le périmètre du cercle est de : ". round($perimetre,2) ." cm <br>";
     }
 
     public function aireCercle(){
         $rayon = $this->diametre / 2;
         $aire = M_PI * pow($rayon, 2);
-        return "L'aire du cercle est de :  $aire cm² <br> ";
+        return "L'aire du cercle est de : ".  round($aire,2) ." cm² <br> ";
     }
 
     public function afficherCercle(){
