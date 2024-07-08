@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.secR{
+    display: flex;
+}
+.blocR {
+    min-width: 300px; 
+    height: auto; 
+    width: fit-content;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+    border: 1px solid rgba(0, 0, 0, 0.66);
+}
+
+.parR {
+    font-size: 22px;
+}
